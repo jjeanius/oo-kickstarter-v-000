@@ -1,4 +1,4 @@
-class projects
+class Projects
 
   attr_accessor
 
