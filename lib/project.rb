@@ -3,6 +3,7 @@ class Projects
   attr_accessor
 
   def initialize(title)
+    project = Project.new
     @title = title
   end
 
