@@ -7,7 +7,7 @@ class projects
   end
 
 
-  def add_backer(Backer)
+  def add_backer("Backer")
     @backers = []
     @backers << Backer
     @backers << self
