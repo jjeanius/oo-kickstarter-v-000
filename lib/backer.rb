@@ -9,8 +9,7 @@ class Backer
     back_project = []
     @backed_projects << Project
     @backed_projects << self
-    
+
   end
 
 end
-
