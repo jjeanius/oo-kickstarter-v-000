@@ -9,6 +9,6 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    @backers.each {|backer|backer.backer.include? title}
+
     end
   end
