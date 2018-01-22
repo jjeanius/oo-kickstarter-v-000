@@ -11,5 +11,5 @@ class Project
     @backers << backer
     @backers.each {|backer|backer.backer.include? title}
     end
-
+  end
   end
